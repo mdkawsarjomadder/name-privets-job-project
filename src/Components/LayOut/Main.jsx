@@ -1,9 +1,12 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Main = () => {
       return (
-            <div>
-                  <h2>This is a main</h2>
+            <div className=''>
+            
+                  <h3>This is a main</h3>
+                  {/* <Outlet></Outlet> */}
             </div>
       );
 };
