@@ -1,5 +1,6 @@
 import React from 'react';
 // import Imgs from '../../assets/Icons/Group-4.png';
+import incon from '../../assets/Icons/Group 9969.png'
 
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
                 <div>
                 <h2 className=' text-3xl font-bold'>CareerHub</h2>
                 <p className=' p-2 w-48 font-sans'>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
-                {/* <img src={Imgs} alt="" /> */}
+               <img className=' w-24 m-1' src={incon} alt="" />
                 </div>
                 <div>
                 <h2 className=' text-2xl font-bold'>Company</h2>
