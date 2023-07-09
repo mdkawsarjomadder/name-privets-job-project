@@ -1,9 +1,9 @@
 [
       {
         "id": 1,
-        "name": "Leanne Graham",
-        "image": "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000",
-        "username": "Bret",
+        "name": "YouTube is a free video sharing that makes",
+        "image": "https://1000logos.net/wp-content/uploads/2021/04/YouTube-logo.png",
+        "username": "YouTube",
         "email": "Sincere@april.biz",
         "address": {
           "street": "Kulas Light",
@@ -25,8 +25,8 @@
       },
       {
         "id": 2,
-        "name": "Ervin Howell",
-        "username": "Antonette",
+        "name": "Technical Database Engineer",
+        "username": "Google LLC",
         "image": "https://static.businessworld.in/article/article_extra_large_image/1658285256_bzIzO4_google_logo.jpg",
         "email": "Shanna@melissa.tv",
         "address": {
@@ -49,8 +49,8 @@
       },
       {
         "id": 3,
-        "name": "Clementine Bauch",
-        "username": "Samantha",
+        "name": " movies on an internet-connected device",
+        "username": "Netflix",
         "image": "https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5.fit_scale.size_1028x578.v1582751026.png",
 
         "email": "Nathan@yesenia.net",
@@ -59,6 +59,7 @@
           "suite": "Suite 847",
           "city": "McKenziehaven",
           "zipcode": "59590-4157",
+       
           "geo": {
             "lat": "-68.6102",
             "lng": "-47.0653"
@@ -74,8 +75,8 @@
       },
       {
         "id": 4,
-        "name": "Patricia Lebsack",
-        "username": "Karianne",
+        "name": "National Aeronautics and Space Administration",
+        "username": "Nasa",
         "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
 
         "email": "Julianne.OConner@kory.org",
@@ -83,7 +84,7 @@
           "street": "Hoeger Mall",
           "suite": "Apt. 692",
           "city": "South Elvis",
-          "zipcode": "53919-4257",
+          "zipcode": "53919-4257" ,
           "geo": {
             "lat": "29.4572",
             "lng": "-164.2990"

@@ -15,7 +15,7 @@ const Products = () => {
                   <h3 className=' text-3xl font-semibold'>Featured Jobs</h3>
                   <p className=' text-slate-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                  </div>
-                 <div className='p-5 text-center'>
+                 <div className='p-5 grid grid-cols-2 gap-5'>
                 {
                    produts.map(product => <ProductCart
                     key={product.id}

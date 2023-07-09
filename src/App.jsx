@@ -12,11 +12,7 @@ function App() {
 
   return (
     <div className=''>
-      <Header></Header>
-      <Head></Head>
-      <Cart></Cart>
-      <Products></Products>
-      <Footer></Footer>
+    
     
       
       
