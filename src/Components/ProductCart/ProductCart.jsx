@@ -1,6 +1,8 @@
 import React from 'react';
+import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
+
 import './ProductCart.css'
-// import imgsBoss from './product.json';
+
 
 const ProductCart = ({ product }) => {
       const { name, username, location, locationTwo, image, city } = product;
@@ -17,14 +19,21 @@ const ProductCart = ({ product }) => {
                               <button className='border-2 rounded-md border-blue-300 py-2 px-8'>Full Time</button>
                         </div>
                         <div className='flex gap-5 p-1'>
-                              <p>Dhaka, Bangladesh</p>
-                              <p>Salary : 100K - 150K</p>
+                              <div className=' flex gap-2'>
+                                    <span className=''>  <MapPinIcon className="h-5 w-5  text-white-200 " /> </span>
+                                    <p> Dhaka, Bangladesh</p>
+                                    </div>
+                              <div className='flex gap-2'>
+                                    <span className=''>  <CurrencyDollarIcon className="h-5 w-5 text-white-200" />
+                                    </span>
+                                    <p > Salary : 100K - 150K</p>
+                              </div>
                         </div>
                         <button className='p-2 border-2 rounded-md border-blue-500 py-2 px-8 bg-blue-600 '> View Details
                         </button>
 
                   </div>
-                
+
 
 
             </div>

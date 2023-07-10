@@ -1,17 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Nave = () => {
       return (
             <div className=' container mx-auto text-center p-5'>
-                  <nav className=''>
-                     <ul className='flex gap-5 text-2xl'>
-                        <li className=' text-yellow-500'>
-                              <a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/setting">Setting</a></li>
-                        <li><a href="/blog">Blog</a></li>
-                     </ul>
+                  <nav className='flex gap-5 text-2xl'>
+                            <Link className=' text-yellow-500' to="/">Home</Link>
+                            <Link to="/applied">Applied Jobs</Link>
+                            <Link to="/staistics">Statistics</Link>
+                            <Link to="/blog" >Blog</Link>
                   </nav>
             </div>
       );
